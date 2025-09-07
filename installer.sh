@@ -47,7 +47,7 @@ curl -L -o "$INSTALL_DIR/base.py" https://raw.githubusercontent.com/nebuff/Cooki
 # Create a convenient command
 echo "[+] Creating 'cookie' command..."
 echo -e "#!/bin/bash\npython3 $INSTALL_DIR/base.py" > /usr/local/bin/cookie
-chmod +x /usr/local/bin/cookie
+sudo chmod +x /usr/local/bin/cookie
 
 echo "=== Installation Complete ==="
 echo "Run 'cookie' to start the Cookie TUI Game."
