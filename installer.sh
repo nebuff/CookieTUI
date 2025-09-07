@@ -2,7 +2,7 @@
 # Auto-installer for CookieTUI
 
 echo "=== CookieTUI ==="
-echo "v1.2 Alpha"
+echo "v1.3 Alpha"
 echo "Written by Nebuff"
 sleep 1
 echo "[!] YOU MUST HAVE A INTERNET CONNECTION AND SUDOERS/ROOT PRIVLEDGES"
