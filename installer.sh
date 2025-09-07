@@ -2,7 +2,7 @@
 # Auto-installer for CookieTUI
 
 echo "=== CookieTUI ==="
-echo "v1.3 Alpha"
+echo "v1.4 Alpha"
 echo "Written by Nebuff"
 sleep 1
 echo "[!] YOU MUST HAVE A INTERNET CONNECTION AND SUDOERS/ROOT PRIVLEDGES"
@@ -46,7 +46,7 @@ curl -L -o "$INSTALL_DIR/base.py" https://raw.githubusercontent.com/nebuff/Cooki
 
 # Create a convenient command
 echo "[+] Creating 'cookie' command..."
-echo -e "#!/bin/bash\npython3 $INSTALL_DIR/base.py" > /usr/local/bin/cookie
+echo -e "#!/bin/bash\npython3 $INSTALL_DIR/base.py" | sudo tee /usr/local/bin/cookie > /dev/null
 sudo chmod +x /usr/local/bin/cookie
 
 echo "=== Installation Complete ==="
