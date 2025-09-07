@@ -33,7 +33,7 @@ echo "[*] Pip and Python Installed/Updated"
 
 # Install dependencies
 echo "[+] Installing dependencies..."
-pip install --upgrade textual
+pip install --upgrade textual --break-system-packages
 
 echo "[+] Creating Install"
 # Create installation folder
